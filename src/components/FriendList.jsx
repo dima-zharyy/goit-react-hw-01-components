@@ -19,5 +19,5 @@ export default function FriendList({ friends }) {
 }
 
 FriendList.propTypes = {
-  friends: PropTypes.node,
+  friends: PropTypes.arrayOf(PropTypes.object),
 };
