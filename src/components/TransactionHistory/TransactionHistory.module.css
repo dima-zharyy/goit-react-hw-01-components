@@ -7,7 +7,7 @@
   width: var(--main-width);
   padding: 20px;
 
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.2em;
   text-align: center;
   text-transform: uppercase;
@@ -32,6 +32,8 @@
 }
 
 .transactionHistory td {
+  font-size: 16px;
+
   color: var(--secondary-color);
 }
 
@@ -43,5 +45,5 @@
 .transactionHistory td:first-child {
   text-transform: capitalize;
 
-  padding-left: 150px;
+  padding-left: 14.5%;
 }
