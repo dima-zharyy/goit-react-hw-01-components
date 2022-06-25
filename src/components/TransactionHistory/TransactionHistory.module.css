@@ -4,7 +4,7 @@
 }
 
 .transactionHistory th {
-  width: var(--main-width);
+  width: 120px;
   padding: 20px;
 
   font-size: 14px;
@@ -39,11 +39,12 @@
 
 .transactionHistory td:not(:first-child) {
   padding: 20px;
+
   text-align: center;
 }
 
 .transactionHistory td:first-child {
-  text-transform: capitalize;
+  padding-left: 12%;
 
-  padding-left: 14.5%;
+  text-transform: capitalize;
 }
